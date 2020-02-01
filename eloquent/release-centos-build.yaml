@@ -1,0 +1,32 @@
+%YAML 1.1
+# ROS buildfarm release-build file
+---
+abi_incompatibility_assumed: true
+
+build_environment_variables:
+  RTI_NC_LICENSE_ACCEPTED: 'yes'
+
+jenkins_binary_job_priority: 79
+jenkins_binary_job_timeout: 120
+jenkins_source_job_priority: 75
+jenkins_source_job_timeout: 30
+notifications:
+  emails:
+  - logans@cottsay.net
+  maintainers: false
+sync:
+  package_count: 290
+repositories:
+  keys:
+  - ''
+  urls:
+  - http://54.165.81.143/rhel/building/$releasever/$basearch/
+target_repository: http://54.165.81.143/rhel/building
+package_format: rpm
+targets:
+  rhel:
+    '7':
+      x86_64:
+type: release-build
+upload_credential_id: 0ddb9953-40d3-4922-80be-298086e30370
+version: 2
