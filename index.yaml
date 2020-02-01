@@ -14,38 +14,38 @@ notification_emails:
 - logans@cottsay.net
 prerequisites:
   debian_repositories:
-  - http://repos.ros.org/repos/ros_bootstrap
+  - http://54.165.81.143/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
-    Version: GnuPG v1.4.11 (GNU/Linux)
 
-    mQGiBEsy5KkRBADJbDSISoamRM5AA20bfAeBuhhaI+VaiCVcxw90sq9AI5lIc42F
-    WzM2acm8yplqWiehAqOLKd+iIrqNGZ+VavZEPTx7o06UZUMRoPBiTFaCwrQ5avKz
-    lt7ij8PRMVWNrJ7A2lDYXfFQVV1o3Xo06qVnv0KLLUmiur0LBu4H/oTH3wCgt+/I
-    D3LUKaMJsc77KwFBTjHB0EsD/26Z2Ud12f3urSNyN6VMWnP3rz6xsmtY4Qsmkbnr
-    JuduxCQBZv6bX1Cr2ulXkv0fFOr+s5OyUv7zyCPbxiJFh3Br7fJGb0b5/M208KPe
-    giITY9hMh/aUbKjXCPoOXPxSL6SWOWV8taR6903EFyLBN0qno/kXIBKnVqBZobgn
-    jIEPA/0fTnxtZtE7EpirGQMF2caJfv7/LCgXmRs9xAhgbE0/caoa1tnc79uaHmLZ
-    FtbGFoAO31YNYM/IUHtmabbGdvZ4oYUwDhjBevVvC7aI+XhuNGK5mU8qCLLSEUOl
-    CUr6BJq/0iFmjwjmwk9idZEYhqSNy2OoYJbq45rbHfbdKLEVrbQeUk9TIEJ1aWxk
-    ZXIgPHJvc2J1aWxkQHJvcy5vcmc+iGAEExECACAFAksy5KkCGwMGCwkIBwMCBBUC
-    CAMEFgIDAQIeAQIXgAAKCRBVI7rusB+hFmk7AJ0XsLp05KA8l3YzAumZfjSN04MZ
-    jQCfQHfp4aQUXdOCUtetVo0QZUX3IuO5Ag0ESzLkrhAIAOCuSC83VXYWf8gOMSzd
-    xwpsH/uLV9Wze2LGnajsJLjEOhcsz2BHfxqNXhYaE9aQaodPCpbUAkPq8tLbpXy0
-    SWRCx0F5RcplXx5vIWbP6TlfPbRpK70w7IWd6vsNrjwEHjlhOLcNcj42sp5pgx4b
-    dceK06k5Ml2hYovPnD9o2TYgjOqg5FHZ2g1J0103n/66bN/hZnpLaZJYQiPWCyq6
-    K0565i1k2Y7hgWB/OXqwaqCehqmLTvpyQGzE1UJvKLuYU+T+4hBnSPbT3KIi5fCz
-    lIwvxijOMcfbkLhzYQXcU0Rd1VItcd5nmPL4z97jBxzuhkgxXpGR4WGKhvsA2Z9Y
-    UtsAAwYH/3Bf44bTpD9bVADUdab3e7zm8iHfh9K/a83mIgDB7mHV6WuemQVTf/1d
-    eu4mI5WtpbOCoucybGfjGIIAcSxwIx6VfC7HSp4J51bOpHhbdDffUEk6QVsZjwoF
-    yn3W9W3ZVeTI+ch/Qoo5a98SnmdjN8eXI/qCuiXOHc6rXDXc2R0iox/1EAS8xGVd
-    cYZe7IWBO2CjCknyhLrWxZHoy+i1GCZ9KvPF/Ef2dmLhCydT73ZlumsY8N5vm76Q
-    ul1G7f8LNbnMgXQafRkPffrAXSVhGY3Z2IiBwFNgxcKTq479l7yedYRGeU1A+SYI
-    YmRFWHXt3rTkMlQSpxCsB0fAYfrwEqqISQQYEQIACQUCSzLkrgIbDAAKCRBVI7ru
-    sB+hFpryAJ4puo6cMZxa6wITHFAM/k84+aRijwCeItuWpUngP25xDuDGMsKarcNi
-    qYE=
-    =Vgio
+    mQENBF03T4oBCADcvQUVegBEBDC+9FfAOE+m+E33oIo0yf7ouC83E2REXDN9MsC3
+    PY3MHSkH/r0dvUVRaGYGYSIALIiIJGgSowNGx7JY5vAcryodptyF1uYB1G6DZdVL
+    AF8j3uV5nnDH46kHaJlvA7rN2NCAJylaLOGzZhjSsdHNjtk7zvb/Q9pz8U2M/rtu
+    prXoUMJU1jM4s8OfuMmekgkQUNe0KNG5AcUJsSg5Jb740hbQDVDdn82wZhlEf3fL
+    wzzgsywVMMXDzc0gAFDjUgPkZz5c1jJwE9ochENTFBc2S+aPt+kMJctzqqHzX0Ut
+    oNmkP7/JpM7/PxjkHGfWMSczAyJWah29nXvFABEBAAG0M1JPUyBCdWlsZGZhcm0g
+    PHJvb3RAYm94LWJmLXJlcG8uZGVscGhpLmNvdHRzYXkubmV0PokBTgQTAQgAOBYh
+    BGzS0Lqayl3Mc5I5D3z7wMrl4BNiBQJdN0+KAhsDBQsJCAcCBhUKCQgLAgQWAgMB
+    Ah4BAheAAAoJEHz7wMrl4BNiPWcIAIYqdnqSXd9VbSkKJVsHlREpKgdexMThRV1v
+    7F+aM7ePPzMI7rsUEI9Yj33W/V0++Lb8bgUEggnCz2P0F1V8EwvDJx8H01nIqP1m
+    MHW58tiArFPiCyZUmQ4ZC4DjOrHWlbyQWnHSEtBkJXfREycfN3kV/H/o8V/35Gxa
+    Kjbyc+y3psjI65HNb56d0pvxd6NmnoxB1SeD23th2iyYOzmx3iba0V4HxNY75/E6
+    c9eVtfM4Sb4oa+vDbCeH1CoSGSpkY67Wetcmd2JSSyJEzc1eu19tAs5jRUnOhQmk
+    4zg0TQ2UsRH38wjkrY5S52jy9uBIYP/aEYe7NHcK1afYSpy5Kxu5AQ0EXTdPigEI
+    AJoP19fPBUTEyiBwzKLRm7G4iFxq28irFhs5g8Hmbis94rb0jNK6X7r7uqZdesxp
+    tOzD9seRY5O4cqWSi6ty47q+5GXC035qxj006/RGs4QRjaJHmwvRuESJNRAirsUt
+    T5harmOJs1gYs/UYi7fhlaDA5gYMLV9L/zAIBUySGAxYgYD0Co59jW1i34bXfuBy
+    /5gZ3njpPO1Wy2sUEoCRsX1PdLdwf8q0Hk1gBxY6xLj4buvz3xkWJMy1ld3W0tLX
+    AuFwEDvTUTScrUv++7L5Wlg4h3lekoVsr0AQpLOql+v1XpGgDYDPDbgPlt49Onfz
+    fL8Ir6nS+No2i7IqsqIUdgkAEQEAAYkBNgQYAQgAIBYhBGzS0Lqayl3Mc5I5D3z7
+    wMrl4BNiBQJdN0+KAhsMAAoJEHz7wMrl4BNiQfAH/id4EQerIr6/3wT3nKZC6mIO
+    OgqAN0s9bHgwJNFT6Vbf93M2NRbtED1Pb7PjFqdjEUhapFzqGQ0j9dIjqIpY8qs7
+    VX4WCBJxRwrqw2qcOI+bSiK7uzTUp1T7JvMqtGjUKMiOk+Ck65XgPfm3AQH/yJdU
+    JaHvv5jayTxdfRs1xO8mq7VZbgHC7GNA1J3syNGsjTRVHuI1CqDA4Y2GDX+Z/dFq
+    6/HOk30u08STin5C5l7ZvQLE3hc1wdTyihIRY2eTD2rQGmsaC75nqBAKHUcHBnd0
+    7YBO2x6qk4V6nSIMnTOHDcfRhw5eu8NDNWhaAG/WV3vt4f1JHfn7YLN4DVLoWpM=
+    =KLBt
     -----END PGP PUBLIC KEY BLOCK-----
 rosdistro_index_url: https://raw.githubusercontent.com/ros2-gbp-rpm/rosdistro/ros2-gbp-rpm/index-v4.yaml
 status_page_repositories:
