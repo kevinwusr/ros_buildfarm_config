@@ -22,7 +22,8 @@ repositories:
   urls:
   - http://54.165.81.143/rhel/building/$releasever/$basearch/
 target_repository: http://54.165.81.143/rhel/building
-package_format: rpm
+package_blacklist:
+- popf # Unsatisfied system package dependencies
 targets:
   rhel:
     '7':
