@@ -23,6 +23,7 @@ repositories:
   - http://54.165.81.143/rhel/building/$releasever/$basearch/
 target_repository: http://54.165.81.143/rhel/building
 package_blacklist:
+- cv_bridge # Requires OpenCV 3, system packages OpenCV 2
 - popf # Unsatisfied system package dependencies
 targets:
   rhel:
