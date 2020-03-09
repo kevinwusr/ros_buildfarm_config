@@ -4,7 +4,7 @@
 abi_incompatibility_assumed: true
 
 build_environment_variables:
-  RTI_NC_LICENSE_ACCEPTED: 'yes'
+  RPM_BUILD_NCPUS: '1'
 
 jenkins_binary_job_priority: 79
 jenkins_binary_job_timeout: 120
@@ -25,7 +25,6 @@ target_repository: http://54.165.81.143/rhel/building
 package_blacklist:
 - cv_bridge # Requires OpenCV 3, system packages OpenCV 2
 - popf # Unsatisfied system package dependencies
-- sophus # Resource-intensive, keeps taking out agents
 targets:
   rhel:
     '7':
