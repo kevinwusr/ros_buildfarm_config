@@ -30,6 +30,7 @@ package_blacklist:
 - image_tools # Requires OpenCV 3, system packages OpenCV 2
 - kobuki_ftdi # System libftdi is too old
 - popf # Unsatisfied system package dependencies
+- slam_toolbox # System tbb is too old
 - test_osrf_testing_tools_cpp # Doesn't install anything ??
 targets:
   rhel:
