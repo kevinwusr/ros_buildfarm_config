@@ -53,5 +53,9 @@ status_page_repositories:
   - http://54.165.81.143/ubuntu/building
   - http://54.165.81.143/ubuntu/testing
   - http://54.165.81.143/ubuntu/main
+  centos:
+  - http://54.165.81.143/rhel/building
+  - http://54.165.81.143/rhel/testing
+  - http://54.165.81.143/rhel/main
 type: buildfarm
 version: 1
