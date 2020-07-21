@@ -1,22 +1,23 @@
 %YAML 1.1
-# ROS buildfarm index file
+# ROS buildfarm release-build file
 ---
-distributions:
-  eloquent:
-    doc_builds: {}
-    notification_emails:
-    - logans@cottsay.net
-    release_builds:
-      centos: eloquent/release-centos-build.yaml
-      fedora: eloquent/release-fedora-build.yaml
-    source_builds: {}
-jenkins_url: http://35.174.155.1
-notification_emails:
-- logans@cottsay.net
-prerequisites:
-  debian_repositories:
-  - http://54.165.81.143/ubuntu/building
-  debian_repository_keys:
+abi_incompatibility_assumed: true
+
+build_environment_variables:
+  RPM_BUILD_NCPUS: '1'
+
+jenkins_binary_job_priority: 79
+jenkins_binary_job_timeout: 120
+jenkins_source_job_priority: 75
+jenkins_source_job_timeout: 30
+notifications:
+  emails:
+  - logans@cottsay.net
+  maintainers: false
+sync:
+  package_count: 290
+repositories:
+  keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
 
@@ -48,15 +49,15 @@ prerequisites:
     7YBO2x6qk4V6nSIMnTOHDcfRhw5eu8NDNWhaAG/WV3vt4f1JHfn7YLN4DVLoWpM=
     =KLBt
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.githubusercontent.com/ros2-gbp-rpm/rosdistro/rpm-production/index-v4.yaml
-status_page_repositories:
-  default:
-  - http://54.165.81.143/ubuntu/building
-  - http://54.165.81.143/ubuntu/testing
-  - http://54.165.81.143/ubuntu/main
-  centos:
-  - http://54.165.81.143/rhel/building
-  - http://54.165.81.143/rhel/testing
-  - http://54.165.81.143/rhel/main
-type: buildfarm
-version: 1
+  urls:
+  - http://54.165.81.143/fedora/building/$releasever/$basearch/
+target_repository: http://54.165.81.143/fedora/building
+package_blacklist:
+- test_osrf_testing_tools_cpp # Doesn't install anything ??
+targets:
+  fedora:
+    '32':
+      x86_64:
+type: release-build
+upload_credential_id: 0ddb9953-40d3-4922-80be-298086e30370
+version: 2
