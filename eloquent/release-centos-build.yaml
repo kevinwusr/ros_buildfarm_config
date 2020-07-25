@@ -53,7 +53,6 @@ repositories:
   - http://54.165.81.143/rhel/building/$releasever/$basearch/
 target_repository: http://54.165.81.143/rhel/building
 package_blacklist:
-- behaviortree_cpp_v3 # System zmq is too old
 - cartographer # Incompatible with system gmock
 - cv_bridge # Requires OpenCV 3, system packages OpenCV 2
 - gazebo_ros # No Gazebo system package
