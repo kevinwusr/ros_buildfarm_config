@@ -54,10 +54,11 @@ status_page_repositories:
   - http://54.165.81.143/ubuntu/building
   - http://54.165.81.143/ubuntu/testing
   - http://54.165.81.143/ubuntu/main
-  rpm:
+  fedora:
   - http://54.165.81.143/fedora/building
   - http://54.165.81.143/fedora/testing
   - http://54.165.81.143/fedora/main
+  rhel:
   - http://54.165.81.143/rhel/building
   - http://54.165.81.143/rhel/testing
   - http://54.165.81.143/rhel/main
