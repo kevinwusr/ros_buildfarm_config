@@ -42,6 +42,7 @@ distributions:
       - ros2-buildfarm-eloquent@googlegroups.com
     release_builds:
       default: eloquent/release-build.yaml
+      rhel: eloquent/release-rhel-build.yaml
       ubhf: eloquent/release-bionic-armhf-build.yaml
       ubv8: eloquent/release-bionic-arm64-build.yaml
     source_builds:
@@ -177,5 +178,9 @@ status_page_repositories:
     - http://repo.ros2.org/ubuntu/building
     - http://repo.ros2.org/ubuntu/testing
     - http://repo.ros2.org/ubuntu/main
+  rhel:
+    - http://repo.ros2.org/el/building
+    - http://repo.ros2.org/el/testing
+    - http://repo.ros2.org/el/main
 type: buildfarm
 version: 1
