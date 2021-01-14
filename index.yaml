@@ -2,17 +2,16 @@
 # ROS buildfarm index file
 ---
 distributions:
-  eloquent:
+  rolling:
     doc_builds: {}
     notification_emails:
-    - logans@cottsay.net
+    - scott@openrobotics.org
     release_builds:
-      centos: eloquent/release-centos-build.yaml
-      fedora: eloquent/release-fedora-build.yaml
+      rhel: rolling/release-rhel-build.yaml
     source_builds: {}
 jenkins_url: http://35.174.155.1
 notification_emails:
-- logans@cottsay.net
+- scott@openrobotics.org
 prerequisites:
   debian_repositories:
   - http://54.165.81.143/ubuntu/building
@@ -54,10 +53,6 @@ status_page_repositories:
   - http://54.165.81.143/ubuntu/building
   - http://54.165.81.143/ubuntu/testing
   - http://54.165.81.143/ubuntu/main
-  fedora:
-  - http://54.165.81.143/fedora/building
-  - http://54.165.81.143/fedora/testing
-  - http://54.165.81.143/fedora/main
   rhel:
   - http://54.165.81.143/rhel/building
   - http://54.165.81.143/rhel/testing

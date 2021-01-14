@@ -6,16 +6,16 @@ abi_incompatibility_assumed: true
 build_environment_variables:
   RPM_BUILD_NCPUS: '1'
 
-jenkins_binary_job_priority: 79
+jenkins_binary_job_priority: 80
 jenkins_binary_job_timeout: 120
-jenkins_source_job_priority: 75
+jenkins_source_job_priority: 70
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - logans@cottsay.net
+  - scott@openrobotics.org
   maintainers: false
 sync:
-  package_count: 290
+  package_count: 262
 repositories:
   keys:
   - |
@@ -52,16 +52,6 @@ repositories:
   urls:
   - http://54.165.81.143/rhel/building/$releasever/$basearch/
 target_repository: http://54.165.81.143/rhel/building
-package_blacklist:
-- cartographer # Requires Lua 5.2, system packages 5.1
-- cv_bridge # Requires OpenCV 3, system packages OpenCV 2
-- gazebo_ros # No Gazebo system package
-- image_tools # Requires OpenCV 3, system packages OpenCV 2
-- kobuki_ftdi # System libftdi is too old
-- popf # Unsatisfied system package dependencies
-- slam_toolbox # System tbb is too old
-- spatio_temporal_voxel_layer # No openvdb system package
-- test_osrf_testing_tools_cpp # Doesn't install anything ??
 targets:
   rhel:
     '7':
