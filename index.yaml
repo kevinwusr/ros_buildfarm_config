@@ -47,7 +47,7 @@ prerequisites:
     7YBO2x6qk4V6nSIMnTOHDcfRhw5eu8NDNWhaAG/WV3vt4f1JHfn7YLN4DVLoWpM=
     =KLBt
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.githubusercontent.com/cottsay/rosdistro/final_patch_test/index-v4.yaml
+rosdistro_index_url: https://raw.githubusercontent.com/ros2-gbp-rpm/rosdistro/ros2-gbp-rpm/index-v4.yaml
 status_page_repositories:
   default:
   - http://54.165.81.143/ubuntu/building
