@@ -14,6 +14,10 @@ notifications:
   emails:
   - scott@openrobotics.org
   maintainers: false
+package_whitelist:
+- ament_cmake_core
+- ament_package
+- ros_workspace
 sync:
   package_count: 262
 repositories:
