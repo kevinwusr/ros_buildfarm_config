@@ -15,9 +15,35 @@ notifications:
   - scott@openrobotics.org
   maintainers: false
 package_whitelist:
+- ament_cmake
+- ament_cmake_auto
 - ament_cmake_core
+- ament_cmake_export_definitions
+- ament_cmake_export_dependencies
+- ament_cmake_export_include_directories
+- ament_cmake_export_interfaces
+- ament_cmake_export_libraries
+- ament_cmake_export_link_flags
+- ament_cmake_export_targets
+- ament_cmake_gmock
+- ament_cmake_google_benchmark
+- ament_cmake_gtest
+- ament_cmake_include_directories
+- ament_cmake_libraries
+- ament_cmake_nose
+- ament_cmake_pytest
+- ament_cmake_python
+- ament_cmake_target_dependencies
+- ament_cmake_test
+- ament_cmake_version
+- ament_index_cpp
+- ament_index_python
 - ament_package
+- gmock_vendor
+- google_benchmark_vendor
+- gtest_vendor
 - ros_workspace
+- uncrustify_vendor
 skip_ignored_packages: true
 sync:
   package_count: 262
