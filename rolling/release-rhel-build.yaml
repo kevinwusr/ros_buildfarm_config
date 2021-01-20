@@ -47,6 +47,7 @@ package_whitelist:
 - ament_cmake_pyflakes
 - ament_cmake_pytest
 - ament_cmake_python
+- ament_cmake_ros
 - ament_cmake_target_dependencies
 - ament_cmake_test
 - ament_cmake_uncrustify
@@ -70,11 +71,28 @@ package_whitelist:
 - ament_pyflakes
 - ament_uncrustify
 - ament_xmllint
+- cyclonedds
+- domain_coordinator
+- fastcdr
+- fastrtps
+- foonathan_memory_vendor
 - gmock_vendor
 - google_benchmark_vendor
 - gtest_vendor
+- launch
+- launch_testing
+- launch_testing_ament_cmake
+- launch_xml
+- launch_yaml
+- libcurl_vendor
+- osrf_pycommon
+- osrf_testing_tools_cpp
+- resource_retriever
+- ros_environment
 - ros_workspace
+- test_interface_files
 - uncrustify_vendor
+- urdfdom_headers
 skip_ignored_packages: true
 sync:
   package_count: 262
