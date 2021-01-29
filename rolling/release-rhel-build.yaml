@@ -72,6 +72,7 @@ package_whitelist:
 - ament_uncrustify
 - ament_xmllint
 - class_loader
+- connext_cmake_module
 - console_bridge_vendor
 - cyclonedds
 - desktop
@@ -100,6 +101,7 @@ package_whitelist:
 - pluginlib
 - pybind11_vendor
 - python_cmake_module
+- python_qt_binding
 - qt_dotgraph
 - qt_gui
 - qt_gui_app
@@ -116,6 +118,9 @@ package_whitelist:
 - rmw
 - rmw_connext_cpp
 - rmw_connext_shared_cpp
+- rmw_fastrtps_cpp
+- rmw_fastrtps_dynamic_cpp
+- rmw_fastrtps_shared_cpp
 - rmw_implementation_cmake
 - ros2bag
 - rosbag2
@@ -135,13 +140,18 @@ package_whitelist:
 - ros_workspace
 - rosidl_adapter
 - rosidl_cmake
+- rosidl_default_generators
+- rosidl_default_runtime
 - rosidl_generator_c
 - rosidl_generator_cpp
 - rosidl_generator_dds_idl
+- rosidl_generator_py
 - rosidl_parser
 - rosidl_runtime_c
 - rosidl_runtime_cpp
 - rosidl_typesupport_c
+- rosidl_typesupport_connext_c
+- rosidl_typesupport_connext_cpp
 - rosidl_typesupport_cpp
 - rosidl_typesupport_fastrtps_c
 - rosidl_typesupport_fastrtps_cpp
@@ -166,6 +176,7 @@ package_whitelist:
 - test_interface_files
 - tinyxml2_vendor
 - tinyxml_vendor
+- tlsf
 - uncrustify_vendor
 - urdf
 - urdf_parser_plugin
