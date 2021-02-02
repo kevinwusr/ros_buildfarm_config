@@ -138,6 +138,7 @@ package_whitelist:
 - rclcpp_action
 - rclcpp_components
 - rclcpp_lifecycle
+- rclpy
 - rcpputils
 - rcutils
 - resource_retriever
