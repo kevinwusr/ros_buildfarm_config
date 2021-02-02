@@ -127,6 +127,10 @@ package_whitelist:
 - rcl_logging_log4cxx
 - rcl_logging_noop
 - rcl_logging_spdlog
+- rclcpp
+- rclcpp_action
+- rclcpp_components
+- rclcpp_lifecycle
 - rcpputils
 - rcutils
 - resource_retriever
