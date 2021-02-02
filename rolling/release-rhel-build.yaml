@@ -123,6 +123,7 @@ package_whitelist:
 - rmw
 - rmw_connext_cpp
 - rmw_connext_shared_cpp
+- rmw_dds_common
 - rmw_fastrtps_cpp
 - rmw_fastrtps_dynamic_cpp
 - rmw_fastrtps_shared_cpp
@@ -187,6 +188,7 @@ package_whitelist:
 - tinyxml_vendor
 - tlsf
 - uncrustify_vendor
+- unique_identifier_msgs
 - urdf
 - urdf_parser_plugin
 - urdfdom
