@@ -122,11 +122,15 @@ package_whitelist:
 - qt_gui_core
 - qt_gui_cpp
 - qt_gui_py_common
+- rcl
+- rcl_action
 - rcl_interfaces
+- rcl_lifecycle
 - rcl_logging_interface
 - rcl_logging_log4cxx
 - rcl_logging_noop
 - rcl_logging_spdlog
+- rcl_yaml_param_parser
 - rclcpp
 - rclcpp_action
 - rclcpp_components
@@ -216,6 +220,8 @@ package_whitelist:
 - shared_queues_vendor
 - spdlog_vendor
 - sqlite3_vendor
+- sros2
+- sros2_cmake
 - statistics_msgs
 - std_msgs
 - std_srvs
