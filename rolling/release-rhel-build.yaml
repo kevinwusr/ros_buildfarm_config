@@ -14,6 +14,8 @@ notifications:
   emails:
   - scott@openrobotics.org
   maintainers: false
+package_blacklist:
+- sdformat_urdf  # Requires sdformat v9, system packages v2
 package_whitelist:
 - action_msgs
 - ament_clang_format
@@ -177,7 +179,6 @@ package_whitelist:
 - rviz_rendering_tests
 - rviz_visual_testing_framework
 - sdformat_test_files
-- sdformat_urdf
 - shared_queues_vendor
 - spdlog_vendor
 - sqlite3_vendor
