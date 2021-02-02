@@ -162,6 +162,7 @@ package_whitelist:
 - ros2run
 - ros2service
 - ros2topic
+- ros2trace
 - rosbag2
 - rosbag2_compression
 - rosbag2_converter_default_plugins
@@ -224,6 +225,11 @@ package_whitelist:
 - tinyxml2_vendor
 - tinyxml_vendor
 - tlsf
+- tracetools
+- tracetools_launch
+- tracetools_read
+- tracetools_test
+- tracetools_trace
 - trajectory_msgs
 - uncrustify_vendor
 - unique_identifier_msgs
