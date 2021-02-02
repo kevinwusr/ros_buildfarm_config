@@ -121,6 +121,7 @@ package_whitelist:
 - rmw_fastrtps_cpp
 - rmw_fastrtps_dynamic_cpp
 - rmw_fastrtps_shared_cpp
+- rmw_implementation
 - rmw_implementation_cmake
 - ros2bag
 - rosbag2
