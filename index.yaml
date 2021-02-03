@@ -81,7 +81,7 @@ distributions:
       ufv8: rolling/release-focal-arm64-build.yaml
     source_builds:
       default: rolling/source-build.yaml
-jenkins_url: https://build.ros2.org
+jenkins_url: http://192.168.1.33:8080
 notification_emails:
   - steven+build.ros2.org@openrobotics.org
 prerequisites:
